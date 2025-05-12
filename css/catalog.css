@@ -1,0 +1,216 @@
+.main_head {
+    max-width: 1500px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 60px 0 0 0;
+    gap: 220px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 250px;
+}
+
+.text_fil {
+    display: flex;
+    margin: 20px 0;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+}
+
+.icon_size {
+    border:2px solid black;
+    border-radius: 7px;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.icon_size:hover  {
+    background-color: #CFCACA;
+}
+
+.icon_size p {
+    font-family: "Lato", sans-serif;
+    Font-weight: 600;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.grid_size {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 200px;
+}
+
+.li_brand {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+}
+
+.brand_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #000000;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.checkbox:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+}
+
+input[type="text"] {
+    font-family: inherit;
+    font-size: inherit; 
+    line-height: inherit; 
+    margin: 0; 
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0;}
+
+.text-field {
+    margin-bottom: 1rem;
+}
+
+.text-field__input {
+    display: block;
+    max-width: 90px;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #232424;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.name_product {
+    color: #000000;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.product_price {
+    color: #000000;
+    font-family: 'Inter';
+    margin: 5px 0;
+}
+
+.price {
+    display: flex;
+    gap: 30px;
+}
+
+.text_fil_butt {
+    color: #ffffff;
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    width: 210px;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.text_fil_butt_res {
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    margin: 20px 0;
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    width: 210px;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.apply button {
+    background-color: #000000;
+    border: #000000;
+}
+
+.apply button:hover {
+    background-color: rgb(190, 188, 188);
+    color: #000000;
+    transition:0.1s;
+}
+
+.reset button:hover {
+    background-color: #000000;
+    color: white;
+    transition:0.1s;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog_con {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product img {
+    width: 262px;
+    border-radius: 30px;
+}
+
+.product:hover {
+    box-shadow: 1px 1px 20px 5px rgb(136, 132, 132);
+    border-radius: 40px;
+}
+
+.name_price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

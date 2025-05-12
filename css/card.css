@@ -1,0 +1,139 @@
+.main_block {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 50px 0 150px 0;
+}
+
+.img_product img{
+    width: 250%;
+}
+
+.icon_size {
+    border:2px solid black;
+    border-radius: 7px;
+}
+
+.icon_size:hover  {
+    background-color: #CFCACA;
+}
+
+.grid_size {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 320px;
+}
+
+.icon_size p {
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    Font-weight: 600;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.info_product {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0 100px 0;
+}
+
+.size_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 100px;
+}
+
+.name_product {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+}
+
+.price {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+}
+
+
+.text_description {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+.text_fil_butt {
+    color: #ffffff;
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    width: 210px;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.apply input {
+    background-color: #000000;
+    border: #000000;
+}
+
+.apply input:hover {
+    background-color: rgb(190, 188, 188);
+    color: #000000;
+    transition:0.1s;
+}
+
+.back {
+    color: #000000;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.link_back {
+    padding: 0 0 30px 0;
+}
+
+/*  */
+
+.img_product img {
+    width: 655px;
+    border-radius: 100px;
+}
+
+.icon_size.selected {
+        background-color: #333;
+        color: white;
+        border-color: #333;
+    }
+    
+    .icon_size.out_of_stock {
+        opacity: 0.5;
+        cursor: not-allowed;
+        position: relative;
+    }
+    
+    .tooltip {
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #333;
+        color: white;
+        padding: 3px 8px;
+        border-radius: 4px;
+        font-size: 12px;
+        white-space: nowrap;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    
+    .out_of_stock:hover .tooltip {
+        visibility: visible;
+        opacity: 1;
+    }
